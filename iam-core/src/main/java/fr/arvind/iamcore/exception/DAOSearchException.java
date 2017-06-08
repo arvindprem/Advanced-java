@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package fr.arvind.iamcore.exception;
+
+/**
+ * @author arvind
+ *
+ */
+public class DAOSearchException extends Exception {
+
+	private String saveFault;
+	
+	public DAOSearchException(String message) {
+		this.saveFault = message;
+	}
+
+	public String getSaveFault() {
+		return saveFault;
+	}
+
+}
